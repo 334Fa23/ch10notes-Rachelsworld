@@ -47,7 +47,7 @@ function hamburger() {
     }
     
     //Funtion to display a promo code
-    funtion discount () {
+    function discount () {
         var promo = document.getElementById("special");
         promo.firstChild.nodeValue = "Promo Code: D25START";
         promo.style.color = "#ff0000";
